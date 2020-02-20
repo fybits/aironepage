@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/styles/style-phone-small.css">
-  <link rel="stylesheet" href="/styles/style-phone-large.css" media="(min-width: 700px)">
+  <link rel="stylesheet" href="/styles/style-phone-large.css" media="(min-width: 750px)">
   <link rel="stylesheet" href="/styles/style-desktop.css" media="(min-width: 1000px)">
   <title>Document</title>
 </head>
@@ -14,8 +14,9 @@
       <div class="logo">
         <a href="#"><img src="img/logo-dark.png" alt="aironepage logo"></a>
       </div>
-      <a href="#" class="show-navigation-btn"><div class="triple-dash-btn"></div></a>
-      <nav class="minimazed">
+      <input type="checkbox" class="show-navigation-btn" id="menu-btn"/>
+      <label class="btn-icon" for="menu-btn"><div class="triple-dash-btn"></div></label>
+      <nav>
         <ul>
           <li class="nav-item"><a href="#">home</a></li>
           <li class="nav-item"><a href="#">products</a></li>
@@ -59,9 +60,54 @@
           <a href="#" class="link product-card-link">Read more</a>
         </article>
       </div>
+      <div class="twophotos">
+        <img src="/img/970x647/01.jpg" alt="">
+        <img src="/img/970x647/03.jpg" alt="">
+      </div>
     </div>
     <div class="section service">
-
+      <div class="card-container">
+        <div class="service-card">
+          <div class="card-content">
+            <img src="/img/test-tube.svg" class="icon" alt="">
+            <h3>Art of coding</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="service-card shaded">
+          <div class="card-content">
+            <img src="/img/tablet.svg" class="icon" alt="">
+            <h3>Responsive design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="card-content">
+            <img src="/img/medal.svg" class="icon" alt="">
+            <h3>Feature reach</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div><div class="service-card">
+          <div class="card-content">
+            <img src="/img/agenda.svg" class="icon" alt="">
+            <h3>Useful documentation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div><div class="service-card">
+          <div class="card-content">
+            <img src="/img/dashboard.svg" class="icon" alt="">
+            <h3>Fast delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="card-content">
+            <img src="/img/medal.svg" class="icon" alt="">
+            <h3>Free plugins</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="section seethrough">
 

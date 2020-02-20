@@ -1,6 +1,6 @@
 nav {
     width: auto;
-    height: auto !important;
+    max-height: none;
     margin-left: auto;
 }
 nav ul {
@@ -9,16 +9,35 @@ nav ul {
 .header-line {
     max-width: 950px;
 }
-.show-navigation-btn {
+.btn-icon {
     display: none;
 }
 .splash h1 {
     width: auto;
 }
-  
+
+.products-cards {
+    width: 950px;
+}
+
+.products > p{
+    width: 550px;
+}
+
+
+.service .card-container {
+    width: 900px;
+}
+
 @media (min-width: 1200px) {
 
     .header-line {
         max-width: 1100px;  
+    }
+    .products-cards {
+        width: 1100px;
+    }
+    .service .card-container {
+        width: 1100px;
     }
 }
