@@ -1,0 +1,14 @@
+
+.products > p{
+    width: 350px;
+}
+
+.products-cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.products-cards article {
+    flex-shrink: 1;
+}
