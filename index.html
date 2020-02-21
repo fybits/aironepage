@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/style-phone-small.css">
-  <link rel="stylesheet" href="/styles/style-phone-large.css" media="(min-width: 750px)">
-  <link rel="stylesheet" href="/styles/style-desktop.css" media="(min-width: 1000px)">
+  <link rel="stylesheet" href="styles/style-phone-small.css">
+  <link rel="stylesheet" href="styles/style-phone-large.css" media="(min-width: 750px)">
+  <link rel="stylesheet" href="styles/style-desktop.css" media="(min-width: 1000px)">
   <title>Document</title>
 </head>
 <body>
@@ -18,12 +18,12 @@
       <label class="btn-icon" for="menu-btn"><div class="triple-dash-btn"></div></label>
       <nav>
         <ul>
-          <li class="nav-item"><a href="#">home</a></li>
-          <li class="nav-item"><a href="#">products</a></li>
-          <li class="nav-item"><a href="#">service</a></li>
-          <li class="nav-item"><a href="#">work</a></li>
-          <li class="nav-item"><a href="#">pricing</a></li>
-          <li class="nav-item"><a href="#">contact</a></li>
+          <li class="nav-item"><a class="dash" href="#">home</a></li>
+          <li class="nav-item"><a class="dash" href="#products">products</a></li>
+          <li class="nav-item"><a class="dash" href="#service">service</a></li>
+          <li class="nav-item"><a class="dash" href="#work">work</a></li>
+          <li class="nav-item"><a class="dash" href="#pricing">pricing</a></li>
+          <li class="nav-item"><a class="dash" href="#contact">contact</a></li>
         </ul>
       </nav>
     </div>
@@ -34,26 +34,26 @@
       <p>Look no further. You came to the right ... place</p>
       <a class="btn" href="https://www.youtube.com/watch?v=0qisGSwZym4">&#x25B7; Watch intro video</a>
     </div>
-    <div class="section products">
+    <div class="section products" id="products">
       <h2>Latest products</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, perferendis debitis veniam voluptas, neque aspernatur quisquam eos autem</p>
       <div class="products-cards">
         <article>
-          <img src="/img/970x647/01.jpg" alt="">
+          <img src="img/970x647/01.jpg" alt="">
           <h3>Workspace</h3>
           <h4>management</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias adipisci, vero libero molestiae repudiandae, error distinctio quod nam quaerat animi rerum aspernatur sapiente!.</p>
           <a href="#" class="link product-card-link">Read more</a>
         </article>
         <article>
-          <img src="/img/970x647/02.jpg" alt="">
+          <img src="img/970x647/02.jpg" alt="">
           <h3>Minimalism</h3>
           <h4>development</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias adipisci, vero libero molestiae repudiandae, error distinctio quod nam quaerat animi rerum aspernatur sapiente!.</p>
           <a href="#" class="link product-card-link">Read more</a>
         </article>
         <article>
-          <img src="/img/970x647/03.jpg" alt="">
+          <img src="img/970x647/03.jpg" alt="">
           <h3>Clean style</h3>
           <h4>design</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias adipisci, vero libero molestiae repudiandae, error distinctio quod nam quaerat animi rerum aspernatur sapiente!.</p>
@@ -61,48 +61,48 @@
         </article>
       </div>
       <div class="twophotos">
-        <img src="/img/970x647/01.jpg" alt="">
-        <img src="/img/970x647/03.jpg" alt="">
+        <img src="img/970x647/01.jpg" alt="">
+        <img src="img/970x647/03.jpg" alt="">
       </div>
     </div>
-    <div class="section service">
+    <div class="section service" id="service">
       <div class="card-container">
         <div class="service-card">
           <div class="card-content">
-            <img src="/img/test-tube.svg" class="icon" alt="">
+            <img src="img/test-tube.svg" class="icon" alt="">
             <h3>Art of coding</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
         <div class="service-card shaded">
           <div class="card-content">
-            <img src="/img/tablet.svg" class="icon" alt="">
+            <img src="img/tablet.svg" class="icon" alt="">
             <h3>Responsive design</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
         <div class="service-card">
           <div class="card-content">
-            <img src="/img/medal.svg" class="icon" alt="">
+            <img src="img/medal.svg" class="icon" alt="">
             <h3>Feature reach</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div><div class="service-card">
           <div class="card-content">
-            <img src="/img/agenda.svg" class="icon" alt="">
+            <img src="img/agenda.svg" class="icon" alt="">
             <h3>Useful documentation</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div><div class="service-card">
           <div class="card-content">
-            <img src="/img/dashboard.svg" class="icon" alt="">
+            <img src="img/dashboard.svg" class="icon" alt="">
             <h3>Fast delivery</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
         <div class="service-card">
           <div class="card-content">
-            <img src="/img/medal.svg" class="icon" alt="">
+            <img src="img/medal.svg" class="icon" alt="">
             <h3>Free plugins</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
@@ -110,26 +110,107 @@
       </div>
     </div>
     <div class="section seethrough">
-
+      <h1>Displaying the result</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
     </div>
-    <div class="section photos">
-
+    <div class="section photos" id="work">
+      <div class="photos-container">
+        <img src="img/800x400/01.jpg" alt="">
+        <img src="img/397x400/01.jpg" alt="">
+        <img src="img/397x300/01.jpg" alt="">
+        <img src="img/397x300/02.jpg" alt="">
+        <img src="img/397x300/03.jpg" alt="">
+      </div>
     </div>
-    <div class="section kits">
-
+    <div class="section kits" id="pricing">
+      <div class="service-card">
+        <div class="card-content">
+          <img src="img/test-tube.svg" class="icon" alt="">
+          <h3>Starter kit <span> -$ </span>49</h3>
+          <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+          <ul>
+            <li class="dash">Basic Features</li>
+            <li class="dash">Up to 5 products</li>
+            <li class="dash">50 Users Panels</li>
+          </ul>
+          <a href="" class="btn">Choose</a>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="card-content">
+          <img src="img/test-tube.svg" class="icon" alt="">
+          <h3>Professional <span> -$ </span>149</h3>
+          <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+          <ul>
+            <li class="dash">Basic Features</li>
+            <li class="dash">Up to 100 products</li>
+            <li class="dash">100 Users Panels</li>
+          </ul>
+          <a href="" class="btn">Choose</a>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="card-content">
+          <img src="img/test-tube.svg" class="icon" alt="">
+          <h3>Advanced <span> -$ </span>249</h3>
+          <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+          <ul>
+            <li class="dash">Basic Features</li>
+            <li class="dash">Unlimited products</li>
+            <li class="dash">Unlimited Users Panels</li>
+          </ul>
+          <a href="" class="btn">Choose</a>
+        </div>
+      </div>
     </div>
     <div class="section reviews">
-
+      <div class="reviews-container">
+        <h2>Customer reviews</h2>
+        <div class="quoteblock">
+          <div class="quote">“</div>
+          <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est inventore ad sunt, harum voluptas quidem autem? Ex fugit incidunt vitae blanditiis praesentium, ducimus placeat. Iste dignissimos cumque nam similique.<br><br>Adipisci est inventore ad sunt, harum voluptas quidem autem? Ex fugit incidunt vitae blanditiis praesentium, ducimus placeat.</blockquote>
+        </div>
+        <cite><strong>Jane Doe</strong>, Metronic Customer</cite>
+      </div>
     </div>
-    <div class="section map">
-
+    <div class="section map" id="contact">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Leviossa%20IT&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
+        </div>
+        <style>.mapouter{position:relative;text-align:right;height:400px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;}</style>
+      </div>
+      <p>
+        277 Bedford Avenue, Brooklyn, NY 11211, New York, USA
+      </p>
     </div>
     <div class="section links">
-
+      <div class="links-container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Subscribe to Our Newsletter</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
     </div>
   </main>
   <footer>
-
+    <div class="footer-container">
+      <img src="img/logo-dark.png" alt="aironepage logo">
+    </div>
   </footer>
 </body>
 </html>

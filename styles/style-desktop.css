@@ -29,6 +29,57 @@ nav ul {
     width: 900px;
 }
 
+.photos {
+    height: fit-content;
+}
+
+.photos-container {
+    display: grid;
+    width: 900px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 5px;
+}
+
+.photos-container img  {
+    max-width: none;
+    margin: 0;
+}
+
+.photos-container img:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.photos-container img:nth-child(2) {
+    grid-column: 3;
+    grid-row: 1;
+}
+.photos-container img:nth-child(3) {
+}
+.photos-container img:nth-child(4) {
+}
+.photos-container img:nth-child(5) {
+}
+
+
+.kits .service-card {
+    width: 300px;
+}
+
+
+.reviews .quoteblock {
+    width: 750px;
+}
+.reviews .reviews-container {
+    width: 900px;
+}
+.links-container {
+    width: 1000px;
+}
+
+.footer-container {
+    width: 900px;
+}
 @media (min-width: 1200px) {
 
     .header-line {
@@ -38,6 +89,29 @@ nav ul {
         width: 1100px;
     }
     .service .card-container {
+        width: 1100px;
+        grid-template-rows: 260px 260px;
+    }
+    .kits .service-card {
+        width: 380px;
+    }
+    .photos-container {
+        width: 1100px;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 350px 350px;
+    }
+
+    .reviews .quoteblock {
+        width: 800px;
+    }
+    .reviews .reviews-container {
+        width: 1100px;
+    }
+
+    .links-container {
+        width: 1200px;
+    }
+    .footer-container {
         width: 1100px;
     }
 }
